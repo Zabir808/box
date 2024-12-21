@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Background </title>
+
+    <style>
+      body {
+         font-family: Arial, Helvetica,sans-serif;
+
+background: linear-gradient(135deg,rgb(0, 0, 0),rgb(77, 10, 10));
+
+display: flex;
+
+height: 200px;
+
+margin: 30px;
+
+justify-content: center;
+
+align-items: center;
+  }
+  .form-container {
+    background-color: rgba(255, 0, 0, 0);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 400px;
+    margin-top: 80px;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+  }
+  input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #1F3A5F;
+    box-sizing: border-box;
+  }
+  button{
+    width: 100%;
+    padding: 12px;
+    background-color: yellowgreen;
+    color: burlywood;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+  }
+  .link{
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+  }
+    </style>
+
+</head>
+
+<body>
+<div class="form-container">
+    <h2>Login</h2>
+    <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <div class="link">
+        <p>Don't have an account? <a href="regeister.html">Register here</a></p>
+    </div>
+</div>
+</body>
+
+</html>
